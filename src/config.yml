@@ -1,0 +1,8 @@
+ - run:
+    name: Run tests
+    command: |
+             mkdir test-results
+             npx jest --listTests | circleci tests run--command="xargs npx jest --config jest.config.js --runInBand"
+    environment:
+        JEST_UNIT_OUTPUT_DIR: test-results
+        JEST_UNIT_ADD_FILE_ATTRIBUTE: true

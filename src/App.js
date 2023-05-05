@@ -58,6 +58,7 @@ const options = {
 
 
 
+
 const step1Text = "# other steps"
 
 const step1TextAdd = "# other steps\n - run:\n    name: Install JUnit coverage reporter\n    command: npm install --save-dev jest-junit"
