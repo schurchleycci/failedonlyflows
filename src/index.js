@@ -12,13 +12,13 @@ import TestRunnerPage1 from './TestRunnerPage1'
 import TestRunnerPage2 from './TestRunnerPage2'
 import PkgManagerPage from './PkgManagerPage'
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter,  Routes, Route } from 'react-router-dom'
+import { HashRouter,  Routes, Route } from 'react-router-dom'
 import TestCommandPage from './TestCommandPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
 
     
@@ -35,7 +35,7 @@ root.render(
           <Route path="testCommand" element={<TestCommandPage />} />
           <Route path="start" element={<StartPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   </React.StrictMode>
 );

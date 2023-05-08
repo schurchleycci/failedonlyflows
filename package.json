@@ -1,7 +1,7 @@
 {
   "name": "guide",
   "version": "0.1.0",
-  "homepage": "https://schurchleycci.github.io/guide",
+  "homepage": "https://schurchleycci.github.io/failedonlyflows",
   "private": true,
   "dependencies": {
     "@emotion/core": "10.3.1",
